@@ -1,9 +1,12 @@
 import React from 'react';
+import './Topics.css'
+import Banner from '../Banner/Banner';
 
 const Topics = () => {
     return (
         <div>
-            <h1 className='bg-primary'>Topics Page</h1>
+            <Banner></Banner>
+
         </div>
     );
 };
