@@ -1,0 +1,22 @@
+.option {
+    padding: 0;
+    margin-bottom: 25px;
+    display: flex;
+    background-color: white;
+    border: 2px solid darkblue;
+}
+
+.option-serial {
+    background-color: rgba(0, 0, 139, 0.855);
+    color: aliceblue;
+    padding: 10px;
+}
+
+.option-text {
+    margin: 5px;
+}
+
+.option:hover {
+    background-color: rgba(0, 0, 139, 0.234);
+    cursor: pointer;
+}
