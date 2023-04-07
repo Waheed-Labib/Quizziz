@@ -4,6 +4,7 @@ import Statistics from "../components/Statistics/Statistics";
 import Blogs from "../components/Blogs/Blogs";
 import Main from "../layouts/Main";
 import Home from "../components/Home/Home";
+import ErrorElement from "../components/ErrorElement/ErrorElement";
 
 export const routes = createBrowserRouter([
     {
@@ -34,6 +35,11 @@ export const routes = createBrowserRouter([
                 path: '/blogs',
                 element: <Blogs></Blogs>
             }
-        ]
+        ],
+
+    },
+    {
+        path: '*',
+        element: <ErrorElement></ErrorElement>
     }
 ])
