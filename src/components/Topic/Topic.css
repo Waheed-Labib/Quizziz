@@ -1,0 +1,12 @@
+.topic img {
+    height: 300px;
+    width: 300px;
+}
+
+.topic:nth-child(odd) {
+    background-color: yellowgreen;
+}
+
+.topic:nth-child(odd) button {
+    margin-bottom: 10px;
+}

@@ -7,7 +7,7 @@ const Header = () => {
 
     return (
 
-        <div className='header d-flex justify-content-between align-items-center'>
+        <div className='header bg-white d-flex justify-content-between align-items-center'>
 
             <a className='site-name' href={'/'}>Quizziz</a>
             <nav>
