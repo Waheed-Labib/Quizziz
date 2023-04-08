@@ -1,0 +1,25 @@
+.vl {
+    border-left: 1px solid gray;
+    height: 200px;
+}
+
+.graph-caption {
+    width: 25%;
+}
+
+@media screen and (max-width:981px) {
+
+    .stat {
+        flex-direction: column;
+    }
+
+    .vl {
+        display: none;
+    }
+
+    .graph-caption {
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+}
