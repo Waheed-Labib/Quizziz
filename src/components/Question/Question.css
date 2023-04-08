@@ -1,0 +1,7 @@
+.eye-icon {
+    color: gray;
+}
+
+.eye-icon:hover {
+    color: rgba(0, 0, 139, 0.708);
+}

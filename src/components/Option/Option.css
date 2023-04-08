@@ -1,7 +1,9 @@
 .option {
     padding: 0;
+    padding-right: 5px;
     margin-bottom: 25px;
     display: flex;
+    justify-content: space-between;
     background-color: white;
     border: 2px solid darkblue;
 }
